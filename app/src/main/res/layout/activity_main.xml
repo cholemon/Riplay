@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardElevation="4dp"
+            card_view:cardMaxElevation="6dp"
+            card_view:contentPadding="5dp"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#4f000000">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/santiago" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center|center_vertical">
+
+                        <TextView
+                            android:id="@+id/time_cl"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:textAppearanceLarge"
+                            android:padding="5dip"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffffff"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:id="@+id/temperature_cl"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:textAppearanceLarge"
+                            android:padding="5dip"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffffff"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/nombre_cl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:padding="5dip"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_text"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardElevation="4dp"
+            card_view:cardMaxElevation="6dp"
+            card_view:contentPadding="5dp"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#4f000000">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/zurich" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center|center_vertical">
+
+                        <TextView
+                            android:id="@+id/time_ch"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:textAppearanceLarge"
+                            android:padding="5dip"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffffff"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:id="@+id/temperature_ch"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:textAppearanceLarge"
+                            android:padding="5dip"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffffff"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/nombre_ch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:padding="5dip"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_text"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardElevation="4dp"
+            card_view:cardMaxElevation="6dp"
+            card_view:contentPadding="5dp"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#4f000000">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/auckland" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center|center_vertical">
+
+                        <TextView
+                            android:id="@+id/time_nz"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:textAppearanceLarge"
+                            android:padding="5dip"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffffff"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:id="@+id/temperature_nz"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:textAppearanceLarge"
+                            android:padding="5dip"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffffff"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/nombre_nz"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:padding="5dip"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_text"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardElevation="4dp"
+            card_view:cardMaxElevation="6dp"
+            card_view:contentPadding="5dp"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#4f000000">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/sydney" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center|center_vertical">
+
+                        <TextView
+                            android:id="@+id/time_au"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:textAppearanceLarge"
+                            android:padding="5dip"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffffff"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:id="@+id/temperature_au"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:textAppearanceLarge"
+                            android:padding="5dip"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffffff"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/nombre_au"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:padding="5dip"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_text"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardElevation="4dp"
+            card_view:cardMaxElevation="6dp"
+            card_view:contentPadding="5dp"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#4f000000">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/londres" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center|center_vertical">
+
+                        <TextView
+                            android:id="@+id/time_uk"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:textAppearanceLarge"
+                            android:padding="5dip"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffffff"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:id="@+id/temperature_uk"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:textAppearanceLarge"
+                            android:padding="5dip"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffffff"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/nombre_uk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:padding="5dip"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_text"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            card_view:cardCornerRadius="4dp"
+            card_view:cardElevation="4dp"
+            card_view:cardMaxElevation="6dp"
+            card_view:contentPadding="5dp"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#4f000000">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:scaleType="centerCrop"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/georgia" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:orientation="vertical"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal|center|center_vertical">
+
+                        <TextView
+                            android:id="@+id/time_usa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:textAppearanceLarge"
+                            android:padding="5dip"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffffff"
+                            android:textAlignment="center"/>
+
+                        <TextView
+                            android:id="@+id/temperature_usa"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:textAppearanceLarge"
+                            android:padding="5dip"
+                            android:textSize="30sp"
+                            android:textStyle="bold"
+                            android:textColor="#ffffffff"
+                            android:textAlignment="center"/>
+
+                    </LinearLayout>
+
+                </FrameLayout>
+
+                <TextView
+                    android:id="@+id/nombre_usa"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:padding="5dip"
+                    android:textStyle="bold"
+                    android:textColor="@color/primary_text"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
