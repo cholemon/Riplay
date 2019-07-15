@@ -1,5 +1,5 @@
-# Proyecto de Selección - Riplay Labs
-## [-By Levi A. Hurtado-]
+# Proyecto de Selección - Riplay Labs (Adaptado para Android)
+##(-By Levi A. Hurtado)
 
 
 ### Planteamiento:
