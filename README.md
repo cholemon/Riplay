@@ -25,3 +25,20 @@ Esto nos simulara un fallo del 10%~, la aplicacion deberá rehacer el request la
 El frontend deberá actualizarse cada 10 segundos a través de web sockets. El proceso deberá actualizar redis y luego enviar el update al frontend.
 
 El temas el diseño esta 100% en tus manos, nos interesa más la funcionalidad y orden más que cuan bonito se ve. 
+
+# Breve explicación:
+
++ EL desarrollo se llevó a cabo usando el Patrón de Diseño MVC.
+
++ Para la persistencia de datos se hizo uso de SQLITE.
+
++ Para el consumo de la API REST se usó la librería OKHTTP.
+
+
+# Algunos screenshot de la app
+ Vistas                    |  Vistas
+:-------------------------:|:-------------------------:
+![](https://downstagram.com/images/screenshot_1.png)  |  ![](https://downstagram.com/images/screenshot_2.png)
+
+# Demo
+[Ver en youtube](https://www.youtube.com/watch?v=Fg1KSrhcOvk)
