@@ -28,7 +28,7 @@ El temas el diseño esta 100% en tus manos, nos interesa más la funcionalidad y
 
 # Breve explicación:
 
-+ EL desarrollo se llevó a cabo usando el Patrón de Diseño MVC.
++ El desarrollo se llevó a cabo usando el Patrón de Diseño MVC.
 
 + Para la persistencia de datos se hizo uso de SQLITE.
 
